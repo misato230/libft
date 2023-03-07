@@ -6,7 +6,7 @@
 /*   By: satoumiu <satoumiu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/16 12:10:05 by satoumiu          #+#    #+#             */
-/*   Updated: 2022/08/31 14:32:24 by satoumiu         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:59:37 by satoumiu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,3 +82,14 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(new_str, &s[start], (ft_strlen(s1) - (start + end) + 2));
 	return (new_str);
 }
+
+// #include <stdio.h>
+
+// int main(void)
+// {
+
+// 	printf("answer=%s\n", ft_strtrim("123456789", "23"));
+
+// 	return (0);
+
+// }

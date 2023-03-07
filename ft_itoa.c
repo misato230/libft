@@ -6,11 +6,12 @@
 /*   By: satoumiu <satoumiu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/30 10:10:36 by satoumiu          #+#    #+#             */
-/*   Updated: 2022/08/30 11:19:21 by satoumiu         ###   ########.fr       */
+/*   Updated: 2023/03/07 15:59:21 by satoumiu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 static size_t	count_dgt(int n)
 {
 	size_t	digit;

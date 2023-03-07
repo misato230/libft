@@ -6,7 +6,7 @@
 /*   By: satoumiu <satoumiu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/13 17:01:24 by satoumiu          #+#    #+#             */
-/*   Updated: 2022/10/08 18:45:10 by satoumiu         ###   ########.fr       */
+/*   Updated: 2023/03/07 16:00:02 by satoumiu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	size_t	src2;
 	char	*new_str;
 
-	if (!s1|| !s2)
+	if (!s1 || !s2)
 		return (NULL);
 	src1 = ft_strlen(s1);
 	src2 = ft_strlen(s2);

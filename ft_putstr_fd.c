@@ -6,11 +6,12 @@
 /*   By: satoumiu <satoumiu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/19 14:47:31 by satoumiu          #+#    #+#             */
-/*   Updated: 2022/10/08 18:43:48 by satoumiu         ###   ########.fr       */
+/*   Updated: 2023/03/07 16:00:20 by satoumiu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 void	ft_putstr_fd(char *s, int fd)
 {
 	size_t	i;
